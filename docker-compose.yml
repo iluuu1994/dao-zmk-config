@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  build:
+    image: zmkfirmware/zmk-build-arm:stable
+    volumes:
+      - ./:/app
+    command: tail -F anything
